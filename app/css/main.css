@@ -1,18 +1,18 @@
 body{
-   background-color: rgb(228, 192, 103) ; 
+   background-color: darkturquoise ; 
 }
 .container {
-    background-color: rgb(250, 226, 92);
+    background-color: orangered;
     width: 800px;
     margin: 65px;
     padding: 10px 20px;
-    box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 8px 19px green;
 
 
 
 }
 .child h3{
-    color: darkturquoise;
+    color: yellow;
     padding: 8px 5px;
     background-color: gainsboro;
     margin-bottom: 12px;
@@ -30,15 +30,18 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: solid 10px rgb(245, 245, 36);
+    border: solid 10px  springgreen;
     align-items: center ;
     padding: 20px;
+    box-shadow: 2px 1px 20px 13px green;
     
 }
 .parent .child{
     flex-basis: 20%;
     padding: 25px;
     flex-basis:20% ;
+    border: solid 5px black;
+    box-shadow: 5px 5px 5px 5px;
 
 }
 .parent .child-1{
@@ -46,7 +49,7 @@ p{
  order: 0;
 }
 .parent .child-2{
-background-color: rgb(235, 225, 225);
+background-color: red;
 order: 0;
 }
 .parent .child-3{
@@ -54,7 +57,7 @@ background-color: green;
 order: 0;
 }
 .parent .child-4{
-background-color: green;
+background-color:darkblue ;
 order: 2;
 
 }
@@ -62,5 +65,5 @@ order: 2;
 background-color: orange ;
 }
 .parent .child-6{
-background-color: rgb(235, 225, 225);
+background-color: lightpink;
 }
